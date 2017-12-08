@@ -1,0 +1,33 @@
+﻿{
+
+  "$schema": "https://statics.teams.microsoft.com/sdk/v1.0/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.0",
+  "version": "1.0.0",
+  "id": "22812762-bb10-4205-aaec-c287f2d2ab62",
+  "packageName": "net.azurewebsites.PersonalHaandbok.",
+  "developer": {
+    "name": "Bouvet",
+    "websiteUrl": "https://website.com/",
+    "privacyUrl": "https://website.com/privacy",
+    "termsOfUseUrl": "https://website.com/app-tos"
+  },
+  "name": {
+    "short": "Personalhåndbok"
+  },
+  "description": {
+    "short": "An EnigmaBot",
+    "full": "Bouvet personalhåndbok Bot."
+  },
+  "icons": {
+    "outline": "EnigmaBot20.png",
+    "color": "EnigmaBot96.png"
+  },
+  "accentColor": "#336699",
+  "bots": [
+    {
+      "botId": "22812762-bb10-4205-aaec-c287f2d2ab62",
+      "needsChannelSelector": "false",
+      "scopes": [ "personal", "team" ]
+    }
+  ]
+}
